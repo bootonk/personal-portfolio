@@ -2,37 +2,59 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-family: "Paytone One", sans-serif;
+  font-size: 60px;
+  margin: 10px 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  font-family: "Paytone One", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.block-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.flip-block {
+  border: 2px solid black;
+  border-radius: 15px;
+  perspective: 40rem;
+  padding: 15px;
+  margin: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content {
+  display: flex;
+  transform-style: preserve-3d;
+  transition: var(--time) transform;
+}
+
+.content:hover {
+  transform: rotateX(-180deg);
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+  min-width: 100%;
+}
+
+.back {
+  transform: rotateX(-180deg) translate(-100%, 0);
+}
+
+.Contact {
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 0 15px;
+}
+
+.flip-img {
+  width: 30%;
+}
+
+.header-img {
+  margin-top: 10px;
+  width: 10%;
 }
