@@ -12,6 +12,10 @@ h3 {
   font-family: "Paytone One", sans-serif;
 }
 
+li {
+  text-align: left;
+}
+
 .block-container {
   display: flex;
 }
