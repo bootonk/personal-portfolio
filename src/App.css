@@ -1,4 +1,5 @@
 .App {
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -12,6 +13,10 @@ h3 {
   font-family: "Paytone One", sans-serif;
 }
 
+li {
+  text-align: left;
+}
+
 .block-container {
   display: flex;
 }
@@ -22,6 +27,7 @@ h3 {
   perspective: 40rem;
   padding: 15px;
   margin: 15px;
+  width: 40%;
 }
 
 .content {
@@ -42,16 +48,25 @@ h3 {
 
 .back {
   transform: rotateX(-180deg) translate(-100%, 0);
+  padding-top: 20px;
 }
 
 .Contact {
   border: 2px solid black;
   border-radius: 15px;
   margin: 0 15px;
+  margin-bottom: 50px;
+}
+
+.Contact div {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-evenly;
 }
 
 .flip-img {
-  width: 30%;
+  width: 50%;
+  padding-top: 20px;
 }
 
 .header-img {

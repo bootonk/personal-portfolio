@@ -4,25 +4,30 @@ import eyes from "../assets/eyes.png";
 export default function Learning() {
   return (
     <div className="flip-block">
-      <img src={eyes} alt="eyes" className="flip-img" />
+      <h3>I'm learning...</h3>
       <div className="content">
         <div className="front">
-          <h3>I'm learning...</h3>
+          <img src={eyes} alt="eyes" className="flip-img" />
         </div>
         <div className="back">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            nec lobortis dolor. Fusce in sagittis arcu. Praesent quis nunc
-            bibendum enim feugiat hendrerit sagittis id augue. Donec commodo
-            egestas scelerisque. Ut placerat neque neque, vitae venenatis lectus
-            pharetra eu. Cras commodo velit sed egestas vulputate. Aliquam erat
-            volutpat. Sed pretium in tortor sed sodales. Nullam nec egestas
-            massa, quis volutpat risus. Nullam ex eros, dapibus id sapien eu,
-            tincidunt varius nulla. Aliquam mauris risus, hendrerit sit amet
-            mauris rhoncus, rhoncus pellentesque mauris. Cras lorem mauris,
-            euismod in leo a, iaculis viverra mauris. Donec velit nisl,
-            sollicitudin et malesuada in, dapibus ut nulla.
-          </p>
+          <ul>
+            <li>
+              <p>Deployment with Github Pages and Fly.io</p>
+            </li>
+            <li>
+              <p>More React.js with this portfolio!</p>
+            </li>
+            <li>
+              <p>
+                Generative Art with <a href="https://p5js.org/">p5js</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                Generative Art with <a href="https://p5js.org/">p5js</a>
+              </p>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

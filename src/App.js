@@ -13,6 +13,9 @@ function App() {
     <div className="App">
       <img src={duck} alt="duck" className="header-img" />
       <h1>Hi, I'm Kate!</h1>
+      <h3>
+        Full Stack Developer / Mentor / ADHDer / Maker / 2nd Baseman / Nerd
+      </h3>
       <div className="block-container">
         <Bio />
         <Learning />
