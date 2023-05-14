@@ -25,11 +25,7 @@ export default function Reading() {
                 <a href="https://www.goodreads.com/book/show/35074096-mythos?ref=nav_sb_ss_1_6">
                   Mythos: The Greek Myths Retold
                 </a>{" "}
-                by Stephen Fry
-              </p>
-            </li>
-            <li>
-              <p>
+                by Stephen Fry and{" "}
                 <a href="https://www.goodreads.com/book/show/24983.Doomsday_Book?ac=1&from_search=true&qid=9WK22R6M4N&rank=1">
                   Dooms Day Book
                 </a>{" "}
