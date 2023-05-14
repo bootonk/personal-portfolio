@@ -19,6 +19,8 @@ li {
 
 .block-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .flip-block {
@@ -27,7 +29,7 @@ li {
   perspective: 40rem;
   padding: 15px;
   margin: 15px;
-  width: 40%;
+  width: 25%;
 }
 
 .content {
@@ -71,5 +73,5 @@ li {
 
 .header-img {
   margin-top: 10px;
-  width: 10%;
+  width: 20%;
 }

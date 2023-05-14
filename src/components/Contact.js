@@ -1,21 +1,37 @@
 import React from "react";
+import mail from "../assets/mail.png";
 
 export default function Contact() {
   return (
-    <div className="Contact">
-      <h3>Where I'm at</h3>
-      <div>
-        <p>email me at kbooton.develops@gmail.com</p>
-        <p>
-          check my <a href="https://github.com/bootonk">github</a>
-        </p>
-        <p>
-          find me on{" "}
-          <a href="https://www.linkedin.com/in/kate-booton/">linkedIn</a>
-        </p>
-        <p>
-          dig into my <a href="https://flowcv.com/resume/7su9k4gvlo">resume</a>
-        </p>
+    <div className="flip-block">
+      <h3>You'll find me...</h3>
+      <div className="content">
+        <div className="front">
+          <img src={mail} alt="mail" className="flip-img" />{" "}
+        </div>
+        <div className="back">
+          {" "}
+          <ul>
+            <li>
+              <p>kbooton.develops@gmail.com</p>
+            </li>
+            <li>
+              <p>
+                <a href="https://github.com/bootonk">github</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="https://www.linkedin.com/in/kate-booton/">linkedIn</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="https://flowcv.com/resume/7su9k4gvlo">resume</a>
+              </p>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );

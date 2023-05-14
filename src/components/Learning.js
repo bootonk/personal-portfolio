@@ -22,11 +22,6 @@ export default function Learning() {
                 Generative Art with <a href="https://p5js.org/">p5js</a>
               </p>
             </li>
-            <li>
-              <p>
-                Generative Art with <a href="https://p5js.org/">p5js</a>
-              </p>
-            </li>
           </ul>
         </div>
       </div>
