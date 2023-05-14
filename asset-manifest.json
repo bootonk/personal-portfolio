@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.13d08915.css",
-    "main.js": "/personal-portfolio/static/js/main.7e26554c.js",
+    "main.css": "/personal-portfolio/static/css/main.3fe438f6.css",
+    "main.js": "/personal-portfolio/static/js/main.ef0f2733.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
-    "static/media/mug.png": "/personal-portfolio/static/media/mug.dc939fbb90de3f1dbe08.png",
-    "static/media/rubber-duck.png": "/personal-portfolio/static/media/rubber-duck.078da2736f95fcf9f5bd.png",
+    "static/media/rubber-duck.png": "/personal-portfolio/static/media/rubber-duck.7fdb47d45bc4235ebb79.png",
+    "static/media/computer.png": "/personal-portfolio/static/media/computer.5551942ae065dbd3acff.png",
     "static/media/mouse.png": "/personal-portfolio/static/media/mouse.62487b37bc210cfe4e8b.png",
+    "static/media/mug.png": "/personal-portfolio/static/media/mug.887a0023aba228687eb3.png",
     "static/media/book.png": "/personal-portfolio/static/media/book.7fdb64a555f0b141b4c3.png",
     "static/media/eyes.png": "/personal-portfolio/static/media/eyes.320901c7403e2af83c09.png",
+    "static/media/mail.png": "/personal-portfolio/static/media/mail.d17fe0f936df852dc655.png",
     "index.html": "/personal-portfolio/index.html",
-    "main.13d08915.css.map": "/personal-portfolio/static/css/main.13d08915.css.map",
-    "main.7e26554c.js.map": "/personal-portfolio/static/js/main.7e26554c.js.map",
+    "main.3fe438f6.css.map": "/personal-portfolio/static/css/main.3fe438f6.css.map",
+    "main.ef0f2733.js.map": "/personal-portfolio/static/js/main.ef0f2733.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13d08915.css",
-    "static/js/main.7e26554c.js"
+    "static/css/main.3fe438f6.css",
+    "static/js/main.ef0f2733.js"
   ]
 }
