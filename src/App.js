@@ -4,6 +4,7 @@ import Bio from "./components/Bio";
 import Learning from "./components/Learning";
 import Doing from "./components/Doing";
 import Reading from "./components/Reading";
+import Writing from "./components/Writing";
 import Contact from "./components/Contact";
 
 import duck from "./assets/rubber-duck.png";
@@ -18,11 +19,12 @@ function App() {
       </h3>
       <div className="block-container">
         <Bio />
-        <Learning />
         <Reading />
+        <Learning />
         <Doing />
+        <Writing />
+        <Contact />
       </div>
-      <Contact />
     </div>
   );
 }

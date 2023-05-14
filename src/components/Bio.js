@@ -1,5 +1,4 @@
 import React from "react";
-import { Fragment } from "react";
 import mug from "../assets/mug.png";
 
 export default function Bio() {
