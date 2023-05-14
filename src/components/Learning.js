@@ -4,10 +4,10 @@ import eyes from "../assets/eyes.png";
 export default function Learning() {
   return (
     <div className="flip-block">
-      <img src={eyes} alt="eyes" className="flip-img" />
+      <h3>I'm learning...</h3>
       <div className="content">
         <div className="front">
-          <h3>I'm learning...</h3>
+          <img src={eyes} alt="eyes" className="flip-img" />
         </div>
         <div className="back">
           <ul>
@@ -16,6 +16,11 @@ export default function Learning() {
             </li>
             <li>
               <p>More React.js with this portfolio!</p>
+            </li>
+            <li>
+              <p>
+                Generative Art with <a href="https://p5js.org/">p5js</a>
+              </p>
             </li>
             <li>
               <p>

@@ -5,10 +5,10 @@ import mug from "../assets/mug.png";
 export default function Bio() {
   return (
     <div className="flip-block">
-      <img src={mug} alt="mug" className="flip-img" />
+      <h3>I'm...</h3>
       <div className="content">
         <div className="front">
-          <h3>I'm...</h3>
+          <img src={mug} alt="mug" className="flip-img" />
         </div>
         <div className="back">
           <p>

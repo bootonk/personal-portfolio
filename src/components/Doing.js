@@ -4,10 +4,10 @@ import mouse from "../assets/mouse.png";
 export default function Doing() {
   return (
     <div className="flip-block">
-      <img src={mouse} alt="mouse" className="flip-img" />
+      <h3>I'm out there...</h3>
       <div className="content">
         <div className="front">
-          <h3>I'm out there...</h3>
+          <img src={mouse} alt="mouse" className="flip-img" />
         </div>
         <div className="back">
           <ul>

@@ -4,10 +4,10 @@ import book from "../assets/book.png";
 export default function Reading() {
   return (
     <div className="flip-block">
-      <img src={book} alt="book" className="flip-img" />
+      <h3>I'm reading...</h3>
       <div className="content">
         <div className="front">
-          <h3>I'm reading...</h3>
+          <img src={book} alt="book" className="flip-img" />
         </div>
         <div className="back">
           <ul>
