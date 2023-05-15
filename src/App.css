@@ -75,3 +75,31 @@ li {
   margin-top: 10px;
   width: 20%;
 }
+
+@media (max-width: 500px) {
+  body {
+    margin: 10px;
+  }
+
+  .header-img {
+    width: 60%;
+  }
+
+  .flip-img {
+    width: 40%;
+  }
+
+  .flip-block {
+    width: 90%;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 1024px) {
+  .header-img {
+    width: 40%;
+  }
+
+  .flip-block {
+    width: 40%;
+  }
+}
