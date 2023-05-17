@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import bomb from "../assets/bomb.png";
 
-// Imports
+// Project Imports
 import TryPods from "./project-components/TryPods";
 import Baseball from "./project-components/Baseball";
 import Personal from "./project-components/Personal";
 import Projector from "./project-components/Projector";
 import Smart from "./project-components/Smart";
 
-// Projects
+// Project Modes
 const TRYPODS = "try-pods";
 const PERSONAL = "personal-portfolio";
 const SMART = "smart-todo";
