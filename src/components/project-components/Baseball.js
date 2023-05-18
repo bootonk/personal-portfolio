@@ -12,7 +12,27 @@ export default function Baseball() {
           <div className="materials-tag"> Merino Felt / Cotton Thread</div>
         </div>
         <div className="project-description">
-          <p>Here's a description</p>
+          <p>
+            I was asked to be a part of a Star Wars Art Show in Victoria and had
+            recently been inspired by my grandpa's old wool baseball patches.
+          </p>
+          <p>
+            So the next obvious step in my mind was to create the fictional
+            baseball teams of the Star Wars Universe and bring them to life with
+            texture, color, and a lot of detail! All roughly 8x8 inches or close
+            to it, and framed in shadow boxes.
+          </p>
+          <h3 className="left-h3">The Teams</h3>
+          <ul>
+            <li>The Death Star Dianogas (sold)</li>
+            <li>The Dune Sea Droids (sold)</li>
+            <li>The Mustafar Smokies (sold)</li>
+            <li>The Canto Bight Aces</li>
+            <li>The Cloud City Saints (sold)</li>
+            <li>The Alderaan Annihilators (sold)</li>
+            <li>The Kamino Cycloners</li>
+            <li>The Sith 66ers (sold)</li>
+          </ul>
         </div>
       </div>
       <div className="right-column">
