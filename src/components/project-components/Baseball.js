@@ -1,4 +1,5 @@
 import React from "react";
+import leagues from "../../assets/gifs/leagues.png";
 
 export default function Baseball() {
   return (
@@ -14,7 +15,12 @@ export default function Baseball() {
           <p>Here's a description</p>
         </div>
       </div>
-      <div className="right-column"></div>
+      <div className="right-column">
+        <img
+          src={leagues}
+          alt="A collection of 8 handmade patches of fake star wars baseball teams"
+        />
+      </div>
     </div>
   );
 }

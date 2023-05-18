@@ -1,4 +1,5 @@
 import React from "react";
+import personalSite from "../../assets/gifs/personal-site.png";
 
 export default function Personal() {
   return (
@@ -16,7 +17,12 @@ export default function Personal() {
           <p>Here's a description</p>
         </div>
       </div>
-      <div className="right-column"></div>
+      <div className="right-column">
+        <img
+          src={personalSite}
+          alt="This site displayed in a computer mockup"
+        />
+      </div>
     </div>
   );
 }

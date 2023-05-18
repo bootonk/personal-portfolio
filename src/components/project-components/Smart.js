@@ -1,4 +1,5 @@
 import React from "react";
+import smartGif from "../../assets/gifs/smart-screengrab.gif";
 
 export default function Smart() {
   return (
@@ -14,7 +15,13 @@ export default function Smart() {
           <p>Here's a description</p>
         </div>
       </div>
-      <div className="right-column"></div>
+      <div className="right-column">
+        <img
+          src={smartGif}
+          alt="Gif of using the Smart Todo Application"
+          className="shaded-img"
+        />
+      </div>
     </div>
   );
 }
