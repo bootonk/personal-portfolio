@@ -88,6 +88,10 @@ a:visited {
   width: 8%;
 }
 
+.shaded-img {
+  box-shadow: 5px 5px 5px #d0d0d0;
+}
+
 .projects-container {
   border: 2px solid black;
   border-radius: 15px;
@@ -96,19 +100,15 @@ a:visited {
   width: 90%;
   height: 600px;
   display: flex;
-  /* align-items: center; */
-  /* justify-content: flex-start;
-  flex-direction: column; */
 }
 
 .project {
   display: flex;
   flex-direction: row;
-  /* justify-content: flex-start; */
 }
 
 .project .left-column {
-  max-width: 300px;
+  width: 30%;
   height: 600px;
   border-right: 2px solid black;
   padding: 0px 10px;
@@ -147,10 +147,10 @@ a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 900px;
+  width: 70%;
 }
 .project .right-column img {
-  max-width: 700px;
+  width: 80%;
 }
 
 @media (max-width: 500px) {

@@ -1,4 +1,5 @@
 import React from "react";
+import soon from "../../assets/gifs/soon.png";
 
 export default function Projector() {
   return (
@@ -14,7 +15,9 @@ export default function Projector() {
           <p>Here's a description</p>
         </div>
       </div>
-      <div className="right-column"></div>
+      <div className="right-column">
+        <img src={soon} alt="coming soon" />
+      </div>
     </div>
   );
 }

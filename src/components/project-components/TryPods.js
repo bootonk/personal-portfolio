@@ -16,7 +16,11 @@ export default function TryPods() {
         </div>
       </div>
       <div className="right-column">
-        <img src={tryPodsGif} alt="Try-Pods gif of website" />
+        <img
+          src={tryPodsGif}
+          alt="Try-Pods gif of website"
+          className="shaded-img"
+        />
       </div>
     </div>
   );
