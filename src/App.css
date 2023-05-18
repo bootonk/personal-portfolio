@@ -99,16 +99,14 @@ a:visited {
   margin: 15px auto;
   width: 90%;
   height: 600px;
-  display: flex;
 }
 
 .project {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 30% 70%;
 }
 
 .project .left-column {
-  width: 30%;
   height: 600px;
   border-right: 2px solid black;
   padding: 0px 10px;
@@ -147,7 +145,6 @@ a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
 }
 .project .right-column img {
   width: 80%;
