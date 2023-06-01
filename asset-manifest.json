@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/personal-portfolio/static/css/main.eb84db64.css",
-    "main.js": "/personal-portfolio/static/js/main.d1ff1186.js",
+    "main.js": "/personal-portfolio/static/js/main.88d6c770.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/try-pods-friends-list.gif": "/personal-portfolio/static/media/try-pods-friends-list.a62f3319f2fd3ce26bf4.gif",
     "static/media/leagues.png": "/personal-portfolio/static/media/leagues.39d28f985e7c61088201.png",
+    "static/media/cross-stitch.png": "/personal-portfolio/static/media/cross-stitch.36f44282149e83dc9b50.png",
     "static/media/smart-screengrabs.gif": "/personal-portfolio/static/media/smart-screengrabs.f11d5c3279f4b7db8431.gif",
     "static/media/personal-site.png": "/personal-portfolio/static/media/personal-site.8f121553e1cb780f49b0.png",
     "static/media/rubber-duck.png": "/personal-portfolio/static/media/rubber-duck.7fdb47d45bc4235ebb79.png",
@@ -18,11 +19,11 @@
     "static/media/mail.png": "/personal-portfolio/static/media/mail.d17fe0f936df852dc655.png",
     "index.html": "/personal-portfolio/index.html",
     "main.eb84db64.css.map": "/personal-portfolio/static/css/main.eb84db64.css.map",
-    "main.d1ff1186.js.map": "/personal-portfolio/static/js/main.d1ff1186.js.map",
+    "main.88d6c770.js.map": "/personal-portfolio/static/js/main.88d6c770.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb84db64.css",
-    "static/js/main.d1ff1186.js"
+    "static/js/main.88d6c770.js"
   ]
 }
