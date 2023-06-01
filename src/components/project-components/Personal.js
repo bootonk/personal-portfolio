@@ -11,7 +11,7 @@ export default function Personal() {
         </h3>
         <div className="tags">
           <div className="category-tag">Application</div>
-          <div className="materials-tag">React.js</div>
+          <div className="materials-tag">React</div>
           <div className="feature-tag">Deployed</div>
         </div>
         <div className="project-description">

@@ -9,7 +9,8 @@ export default function Baseball() {
         <h3>Where Baseball is mashed up with Pop Culture Worlds</h3>
         <div className="tags">
           <div className="category-tag">Art</div>
-          <div className="materials-tag"> Merino Felt / Cotton Thread</div>
+          <div className="materials-tag">Merino Felt</div>
+          <div className="materials-tag">Cotton Thread</div>
         </div>
         <div className="project-description">
           <p>
