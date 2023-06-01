@@ -15,11 +15,13 @@ export default function Learning() {
               <p>Deployment with Github Pages and Fly.io</p>
             </li>
             <li>
-              <p>More React.js with this portfolio!</p>
-            </li>
-            <li>
               <p>
-                Generative Art with <a href="https://p5js.org/">p5js</a>
+                Generative Art with <a href="https://p5js.org/">p5js</a>.
+                Currenly working on pulling weather data to conditionally show
+                the sun's intensity.{" "}
+                <a href="https://github.com/bootonk/art-attack">
+                  Here's the repo!
+                </a>
               </p>
             </li>
           </ul>

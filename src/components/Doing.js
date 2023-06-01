@@ -16,15 +16,32 @@ export default function Doing() {
                 Mentoring with{" "}
                 <a href="https://www.canadalearningcode.ca/">
                   Canada Learning Code
-                </a>{" "}
-                and loving the excitement as people learn new things.
+                </a>
+                .
               </p>
             </li>
             <li>
               <p>
-                Getting reasonably scared and informed at{" "}
-                <a href="https://owasp.org/">OWASP</a> talks on web security and
-                how to improve.
+                At Peacock's on Tuesdays as a regular{" "}
+                <a href="https://openhack.club/">Open Hack</a> pal.
+              </p>
+            </li>
+            <li>
+              <p>
+                Attending{" "}
+                <a href="https://members.viatec.ca/event-calendar/Details/2023-discover-tectoria-become-an-exhibitor-842944?sourceTypeId=Website">
+                  Discover Tectoria
+                </a>
+                .
+              </p>
+            </li>
+            <li>
+              <p>
+                Hosting dev movie nights at the Parkside! First up,{" "}
+                <a href="https://partiful.com/e/gHnoLCoSU9KQkaDlClaa">
+                  Hackers on June 8th
+                </a>
+                .
               </p>
             </li>
           </ul>
