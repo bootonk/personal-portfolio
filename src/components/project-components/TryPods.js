@@ -9,7 +9,9 @@ export default function TryPods() {
         <h3>Where you can find your next favourite podcasts</h3>
         <div className="tags">
           <div className="category-tag">Application</div>
-          <div className="materials-tag">Ruby / Rails / React</div>
+          <div className="materials-tag">Ruby</div>
+          <div className="materials-tag">Rails</div>
+          <div className="materials-tag">React</div>
           <div className="feature-tag">Deployed</div>
         </div>
         <div className="project-description">
