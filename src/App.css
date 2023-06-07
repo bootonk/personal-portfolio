@@ -1,3 +1,4 @@
+/* Global Styling */
 .App {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -39,6 +40,32 @@ a:visited {
   color: #de8f80;
 }
 
+@media (max-width: 500px) {
+  body {
+    margin: 10px;
+  }
+}
+
+/* Header */
+.header-img {
+  margin-top: 10px;
+  width: 18%;
+}
+
+@media (max-width: 500px) {
+  .header-img {
+    width: 60%;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 1024px) {
+  .header-img {
+    width: 40%;
+  }
+}
+
+/* Intro Blocks */
+
 .block-container {
   display: flex;
   flex-wrap: wrap;
@@ -54,23 +81,23 @@ a:visited {
   width: 25%;
 }
 
-.content {
+.flip-block__content {
   display: flex;
   transform-style: preserve-3d;
   transition: var(--time) transform;
 }
 
-.content:hover {
+.flip-block__content:hover {
   transform: rotateX(-180deg);
 }
 
-.front,
-.back {
+.flip-block__content--front,
+.flip-block__content--back {
   backface-visibility: hidden;
   min-width: 100%;
 }
 
-.back {
+.flip-block__content--back {
   transform: rotateX(-180deg) translate(-100%, 0);
 }
 
@@ -79,10 +106,29 @@ a:visited {
   padding-top: 20px;
 }
 
-.header-img {
-  margin-top: 10px;
-  width: 18%;
+@media (max-width: 500px) {
+  .flip-img {
+    width: 40%;
+  }
+
+  .flip-block {
+    width: 90%;
+  }
 }
+
+@media (min-width: 501px) and (max-width: 1024px) {
+  .flip-block {
+    width: 40%;
+  }
+}
+
+@media (min-width: 2000px) {
+  .flip-img {
+    width: 20%;
+  }
+}
+
+/* Project Tabs */
 
 .project-img {
   width: 8%;
@@ -169,22 +215,6 @@ a:visited {
 }
 
 @media (max-width: 500px) {
-  body {
-    margin: 10px;
-  }
-
-  .header-img {
-    width: 60%;
-  }
-
-  .flip-img {
-    width: 40%;
-  }
-
-  .flip-block {
-    width: 90%;
-  }
-
   .projects-container {
     height: auto;
   }
@@ -210,14 +240,6 @@ a:visited {
 }
 
 @media (min-width: 501px) and (max-width: 1024px) {
-  .header-img {
-    width: 40%;
-  }
-
-  .flip-block {
-    width: 40%;
-  }
-
   .projects-container {
     height: auto;
   }
@@ -238,10 +260,6 @@ a:visited {
 }
 
 @media (min-width: 2000px) {
-  .flip-img {
-    width: 20%;
-  }
-
   .project .right-column img {
     max-height: 550px;
     width: auto;
