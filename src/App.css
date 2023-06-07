@@ -129,15 +129,6 @@ a:visited {
 }
 
 /* Project Tabs */
-
-.project-img {
-  width: 8%;
-}
-
-.shaded-img {
-  box-shadow: 5px 5px 5px #d0d0d0;
-}
-
 .projects-container {
   border: 2px solid black;
   border-radius: 15px;
@@ -152,25 +143,33 @@ a:visited {
   grid-template-columns: 40% 60%;
 }
 
-.project .left-column {
+.project__left-column {
   height: 600px;
   border-right: 2px solid black;
   padding: 0px 10px;
 }
 
-.project .left-column h2 {
+.project__left-column h2 {
   font-size: 30px;
 }
 
-.project .left-column h3 {
+.project__left-column h3 {
   font-family: "PT Sans", sans-serif;
+}
+
+.project-img {
+  width: 8%;
+}
+
+.shaded-img {
+  box-shadow: 5px 5px 5px #d0d0d0;
 }
 
 .left-h3 {
   text-align: left;
 }
 
-.project-description p {
+.left-column__project-description p {
   text-align: left;
 }
 
@@ -179,38 +178,38 @@ a:visited {
   justify-content: space-around;
 }
 
-.tags {
+.left-column__tags {
   display: flex;
   justify-content: center;
 }
 
-.category-tag,
-.materials-tag,
-.feature-tag {
+.tags__category-tag,
+.tags__materials-tag,
+.tags__feature-tag {
   border: 2px solid black;
   border-radius: 5px;
   padding: 5px;
   margin: 5px;
 }
 
-.category-tag {
+.tags__category-tag {
   border: 2px solid #d2a8ea;
 }
 
-.materials-tag {
+.tags__materials-tag {
   border: 2px solid #e9af58;
 }
 
-.feature-tag {
+.tags__feature-tag {
   border: 2px solid #3970ae;
 }
 
-.project .right-column {
+.project__right-column {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.project .right-column img {
+.project__right-column img {
   width: 80%;
 }
 
@@ -224,17 +223,17 @@ a:visited {
     grid-template-columns: none;
   }
 
-  .project .left-column {
+  .project__left-column {
     border-right: none;
     border-bottom: 2px solid black;
     height: auto;
   }
 
-  .project .right-column {
+  .project__right-column {
     margin: 20px 0px;
   }
 
-  .tags {
+  .left-column__tags {
     flex-wrap: wrap;
   }
 }
@@ -248,19 +247,19 @@ a:visited {
     grid-template-columns: none;
   }
 
-  .project .left-column {
+  .project__left-column {
     border-right: none;
     border-bottom: 2px solid black;
     height: auto;
   }
 
-  .project .right-column {
+  .project__right-column {
     margin: 20px 0px;
   }
 }
 
 @media (min-width: 2000px) {
-  .project .right-column img {
+  .project__right-column img {
     max-height: 550px;
     width: auto;
   }

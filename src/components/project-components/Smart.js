@@ -4,14 +4,14 @@ import smartGif from "../../assets/gifs/smart-screengrabs.gif";
 export default function Smart() {
   return (
     <div className="project">
-      <div className="left-column">
+      <div className="project__left-column">
         <h2>Smart Todo App</h2>
         <h3>Never need to organize your to-do list again!</h3>
-        <div className="tags">
-          <div className="category-tag">Application</div>
-          <div className="materials-tag">Javascript</div>
+        <div className="left-column__tags">
+          <div className="tags__category-tag">Application</div>
+          <div className="tags__materials-tag">Javascript</div>
         </div>
-        <div className="project-description">
+        <div className="left-column__project-description">
           <p>
             For the midterm project during the Lighthouse Labs Web Dev Program,
             our team picked the Smart ToDo option because of it's complexity
@@ -28,7 +28,7 @@ export default function Smart() {
           </p>
         </div>
       </div>
-      <div className="right-column">
+      <div className="project__right-column">
         <img
           src={smartGif}
           alt="Gif of using the Smart Todo Application"

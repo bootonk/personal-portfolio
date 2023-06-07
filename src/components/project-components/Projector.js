@@ -4,14 +4,16 @@ import soon from "../../assets/gifs/soon.png";
 export default function Projector() {
   return (
     <div className="project">
-      <div className="left-column">
+      <div className="project__left-column">
         <h2>Projector Sewing</h2>
         <h3>Bringing sewing and tech together, and removing paper patterns!</h3>
-        <div className="tags">
-          <div className="category-tag">Sewing</div>
-          <div className="materials-tag">Epson BrightLink 585Wi Projector</div>
+        <div className="left-column__tags">
+          <div className="tags__category-tag">Sewing</div>
+          <div className="tags__materials-tag">
+            Epson BrightLink 585Wi Projector
+          </div>
         </div>
-        <div className="project-description">
+        <div className="left-column__project-description">
           <p>
             In a past life (my 20's), I went to school for sewing and
             patternmaking. I currently focus on making pieces for my own
@@ -45,7 +47,7 @@ export default function Projector() {
           </ul>
         </div>
       </div>
-      <div className="right-column">
+      <div className="project__right-column">
         <img src={soon} alt="coming soon" />
       </div>
     </div>

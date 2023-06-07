@@ -4,17 +4,17 @@ import personalSite from "../../assets/gifs/personal-site.png";
 export default function Personal() {
   return (
     <div className="project">
-      <div className="left-column">
+      <div className="project__left-column">
         <h2>Personal Portfolio</h2>
         <h3>
           A place to share what's going on while I learn more skills to feature
         </h3>
-        <div className="tags">
-          <div className="category-tag">Application</div>
-          <div className="materials-tag">React</div>
-          <div className="feature-tag">Deployed</div>
+        <div className="left-column__tags">
+          <div className="tags__category-tag">Application</div>
+          <div className="tags__materials-tag">React</div>
+          <div className="tags__feature-tag">Deployed</div>
         </div>
-        <div className="project-description">
+        <div className="left-column__project-description">
           <p>
             This is an ongoing project that will help me continue to learn and
             grow by using it as a testing ground! It's also a place where I can
@@ -36,7 +36,7 @@ export default function Personal() {
           </ul>
         </div>
       </div>
-      <div className="right-column">
+      <div className="project__right-column">
         <img
           src={personalSite}
           alt="This site displayed in a computer mockup"
