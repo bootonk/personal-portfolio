@@ -74,7 +74,7 @@ export default function TryPods() {
         <img
           src={tryPodsGif}
           alt="Try-Pods gif of website"
-          className="shaded-img"
+          className="right-column__shaded-img"
         />
       </div>
     </div>
