@@ -33,9 +33,11 @@ export default function TryPods() {
             This project was completed in 10 days and is very much an MVP with a
             lot of room for growth.
           </p>
-          <div className="project-details">
-            <div className="details-left">
-              <h3 className="left-h3">The Team</h3>
+          <div className="left-column__project-details">
+            <div className="project-details__details-left">
+              <h3 className="left-column__project-description--left-h3">
+                The Team
+              </h3>
               <ul>
                 <li>
                   <a href="https://github.com/lizfosdick">Liz Fosdick</a>
@@ -50,8 +52,10 @@ export default function TryPods() {
                 </li>
               </ul>
             </div>
-            <div className="details-right">
-              <h3 className="left-h3">The Code</h3>
+            <div className="project-details__details-right">
+              <h3 className="left-column__project-description--left-h3">
+                The Code
+              </h3>
               <ul>
                 <li>
                   <a href="https://try-pods-fly.fly.dev">Live Demo Site</a>

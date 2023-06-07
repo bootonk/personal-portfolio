@@ -29,7 +29,9 @@ export default function Projector() {
             This saves me about 3-4 hours and $15-20 per project and allows for
             me to make edits within the software I use to prepare the patterns.
           </p>
-          <h3 className="left-h3">Inspiration & Resources</h3>
+          <h3 className="left-column__project-description--left-h3">
+            Inspiration & Resources
+          </h3>
           <ul>
             <li>
               <a href="https://www.instagram.com/minimalistmachinist/">

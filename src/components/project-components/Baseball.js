@@ -23,7 +23,9 @@ export default function Baseball() {
             texture, color, and a lot of detail! All roughly 8x8 inches or close
             to it, and framed in shadow boxes.
           </p>
-          <h3 className="left-h3">The Teams</h3>
+          <h3 className="left-column__project-description--left-h3">
+            The Teams
+          </h3>
           <ul>
             <li>The Death Star Dianogas (sold)</li>
             <li>The Dune Sea Droids (sold)</li>

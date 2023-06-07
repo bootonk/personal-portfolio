@@ -21,7 +21,7 @@ export default function Personal() {
             combine all the different projects and paths I'm on to give a high
             level look at what the heck I'm up to
           </p>
-          <h3 className="left-h3">Goals</h3>
+          <h3 className="left-column__project-description--left-h3">Goals</h3>
           <ul>
             <li>GitHub Pages Deployment ✔️</li>
             <li>Responsive Layout and Mobile Friendly ✔️</li>
