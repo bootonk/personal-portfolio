@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.dc8f8537.css",
-    "main.js": "/personal-portfolio/static/js/main.c05156eb.js",
+    "main.css": "/personal-portfolio/static/css/main.bf5a2c4b.css",
+    "main.js": "/personal-portfolio/static/js/main.54a31779.js",
     "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
     "static/media/try-pods-friends-list.gif": "/personal-portfolio/static/media/try-pods-friends-list.a62f3319f2fd3ce26bf4.gif",
     "static/media/leagues.png": "/personal-portfolio/static/media/leagues.39d28f985e7c61088201.png",
@@ -17,12 +17,12 @@
     "static/media/eyes.png": "/personal-portfolio/static/media/eyes.320901c7403e2af83c09.png",
     "static/media/mail.png": "/personal-portfolio/static/media/mail.d17fe0f936df852dc655.png",
     "index.html": "/personal-portfolio/index.html",
-    "main.dc8f8537.css.map": "/personal-portfolio/static/css/main.dc8f8537.css.map",
-    "main.c05156eb.js.map": "/personal-portfolio/static/js/main.c05156eb.js.map",
+    "main.bf5a2c4b.css.map": "/personal-portfolio/static/css/main.bf5a2c4b.css.map",
+    "main.54a31779.js.map": "/personal-portfolio/static/js/main.54a31779.js.map",
     "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc8f8537.css",
-    "static/js/main.c05156eb.js"
+    "static/css/main.bf5a2c4b.css",
+    "static/js/main.54a31779.js"
   ]
 }
