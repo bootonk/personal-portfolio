@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import bomb from "../assets/bomb.png";
 
 // Project Imports
 import TryPods from "./project-components/TryPods";
