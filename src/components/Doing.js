@@ -28,15 +28,6 @@ export default function Doing() {
             </li>
             <li>
               <p>
-                Attending{" "}
-                <a href="https://members.viatec.ca/event-calendar/Details/2023-discover-tectoria-become-an-exhibitor-842944?sourceTypeId=Website">
-                  Discover Tectoria
-                </a>
-                .
-              </p>
-            </li>
-            <li>
-              <p>
                 Hosting dev movie nights at the Parkside! First up,{" "}
                 <a href="https://partiful.com/e/gHnoLCoSU9KQkaDlClaa">
                   Hackers on June 8th
