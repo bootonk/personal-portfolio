@@ -190,6 +190,7 @@ a:visited {
   }
 
   .project {
+    display: initial;
     grid-template-columns: none;
   }
 
@@ -203,8 +204,8 @@ a:visited {
     margin: 20px 0px;
   }
 
-  .project .right-column img {
-    width: 100%;
+  .tags {
+    flex-wrap: wrap;
   }
 }
 
