@@ -5,11 +5,11 @@ export default function Reading() {
   return (
     <div className="flip-block">
       <h3>I'm reading...</h3>
-      <div className="content">
-        <div className="front">
+      <div className="flip-block__content">
+        <div className="flip-block__content--front">
           <img src={book} alt="book" className="flip-img" />
         </div>
-        <div className="back">
+        <div className="flip-block__content--back">
           <ul>
             <li>
               <p>

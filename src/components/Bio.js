@@ -5,11 +5,11 @@ export default function Bio() {
   return (
     <div className="flip-block">
       <h3>I'm a...</h3>
-      <div className="content">
-        <div className="front">
+      <div className="flip-block__content">
+        <div className="flip-block__content--front">
           <img src={mug} alt="mug" className="flip-img" />
         </div>
-        <div className="back">
+        <div className="flip-block__content--back">
           <p>
             Creator through and through. I collect skills and hobbies and try to
             find interesting ways to combine them.

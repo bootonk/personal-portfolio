@@ -5,11 +5,11 @@ export default function Contact() {
   return (
     <div className="flip-block">
       <h3>You'll find me...</h3>
-      <div className="content">
-        <div className="front">
+      <div className="flip-block__content">
+        <div className="flip-block__content--front">
           <img src={mail} alt="mail" className="flip-img" />{" "}
         </div>
-        <div className="back">
+        <div className="flip-block__content--back">
           {" "}
           <ul>
             <li>

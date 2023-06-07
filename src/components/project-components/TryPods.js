@@ -4,17 +4,17 @@ import tryPodsGif from "../../assets/gifs/try-pods-friends-list.gif";
 export default function TryPods() {
   return (
     <div className="project">
-      <div className="left-column">
+      <div className="project__left-column">
         <h2>Try-Pods</h2>
         <h3>Where you can find your next favourite podcasts</h3>
-        <div className="tags">
-          <div className="category-tag">Application</div>
-          <div className="materials-tag">Ruby</div>
-          <div className="materials-tag">Rails</div>
-          <div className="materials-tag">React</div>
-          <div className="feature-tag">Deployed</div>
+        <div className="left-column__tags">
+          <div className="tags__category-tag">Application</div>
+          <div className="tags__materials-tag">Ruby</div>
+          <div className="tags__materials-tag">Rails</div>
+          <div className="tags__materials-tag">React</div>
+          <div className="tags__feature-tag">Deployed</div>
         </div>
-        <div className="project-description">
+        <div className="left-column__project-description">
           <p>
             This was my team's final project as a wrap up to the Lighthouse Labs
             Web Dev Program.{" "}
@@ -33,9 +33,11 @@ export default function TryPods() {
             This project was completed in 10 days and is very much an MVP with a
             lot of room for growth.
           </p>
-          <div className="project-details">
-            <div className="details-left">
-              <h3 className="left-h3">The Team</h3>
+          <div className="left-column__project-details">
+            <div className="project-details__details-left">
+              <h3 className="left-column__project-description--left-h3">
+                The Team
+              </h3>
               <ul>
                 <li>
                   <a href="https://github.com/lizfosdick">Liz Fosdick</a>
@@ -50,8 +52,10 @@ export default function TryPods() {
                 </li>
               </ul>
             </div>
-            <div className="details-right">
-              <h3 className="left-h3">The Code</h3>
+            <div className="project-details__details-right">
+              <h3 className="left-column__project-description--left-h3">
+                The Code
+              </h3>
               <ul>
                 <li>
                   <a href="https://try-pods-fly.fly.dev">Live Demo Site</a>
@@ -66,7 +70,7 @@ export default function TryPods() {
           </div>
         </div>
       </div>
-      <div className="right-column">
+      <div className="project__right-column">
         <img
           src={tryPodsGif}
           alt="Try-Pods gif of website"

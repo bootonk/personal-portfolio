@@ -1,3 +1,5 @@
+/* Global Styling */
+
 .App {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -39,6 +41,33 @@ a:visited {
   color: #de8f80;
 }
 
+@media (max-width: 500px) {
+  body {
+    margin: 10px;
+  }
+}
+
+/* Header */
+
+.header-img {
+  margin-top: 10px;
+  width: 18%;
+}
+
+@media (max-width: 500px) {
+  .header-img {
+    width: 60%;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 1024px) {
+  .header-img {
+    width: 40%;
+  }
+}
+
+/* Intro Blocks */
+
 .block-container {
   display: flex;
   flex-wrap: wrap;
@@ -54,23 +83,23 @@ a:visited {
   width: 25%;
 }
 
-.content {
+.flip-block__content {
   display: flex;
   transform-style: preserve-3d;
   transition: var(--time) transform;
 }
 
-.content:hover {
+.flip-block__content:hover {
   transform: rotateX(-180deg);
 }
 
-.front,
-.back {
+.flip-block__content--front,
+.flip-block__content--back {
   backface-visibility: hidden;
   min-width: 100%;
 }
 
-.back {
+.flip-block__content--back {
   transform: rotateX(-180deg) translate(-100%, 0);
 }
 
@@ -79,18 +108,29 @@ a:visited {
   padding-top: 20px;
 }
 
-.header-img {
-  margin-top: 10px;
-  width: 18%;
+@media (max-width: 500px) {
+  .flip-img {
+    width: 40%;
+  }
+
+  .flip-block {
+    width: 90%;
+  }
 }
 
-.project-img {
-  width: 8%;
+@media (min-width: 501px) and (max-width: 1024px) {
+  .flip-block {
+    width: 40%;
+  }
 }
 
-.shaded-img {
-  box-shadow: 5px 5px 5px #d0d0d0;
+@media (min-width: 2000px) {
+  .flip-img {
+    width: 20%;
+  }
 }
+
+/* Project Tabs */
 
 .projects-container {
   border: 2px solid black;
@@ -106,85 +146,77 @@ a:visited {
   grid-template-columns: 40% 60%;
 }
 
-.project .left-column {
+.project__left-column {
   height: 600px;
   border-right: 2px solid black;
   padding: 0px 10px;
 }
 
-.project .left-column h2 {
+.project__left-column h2 {
   font-size: 30px;
 }
 
-.project .left-column h3 {
+.project__left-column h3 {
   font-family: "PT Sans", sans-serif;
 }
 
-.left-h3 {
+.project-img {
+  width: 8%;
+}
+
+.shaded-img {
+  box-shadow: 5px 5px 5px #d0d0d0;
+}
+
+.left-column__project-description--left-h3 {
   text-align: left;
 }
 
-.project-description p {
+.left-column__project-description p {
   text-align: left;
 }
 
-.project-details {
+.left-column__project-details {
   display: flex;
   justify-content: space-around;
 }
 
-.tags {
+.left-column__tags {
   display: flex;
   justify-content: center;
 }
 
-.category-tag,
-.materials-tag,
-.feature-tag {
+.tags__category-tag,
+.tags__materials-tag,
+.tags__feature-tag {
   border: 2px solid black;
   border-radius: 5px;
   padding: 5px;
   margin: 5px;
 }
 
-.category-tag {
+.tags__category-tag {
   border: 2px solid #d2a8ea;
 }
 
-.materials-tag {
+.tags__materials-tag {
   border: 2px solid #e9af58;
 }
 
-.feature-tag {
+.tags__feature-tag {
   border: 2px solid #3970ae;
 }
 
-.project .right-column {
+.project__right-column {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.project .right-column img {
+.project__right-column img {
   width: 80%;
 }
 
 @media (max-width: 500px) {
-  body {
-    margin: 10px;
-  }
-
-  .header-img {
-    width: 60%;
-  }
-
-  .flip-img {
-    width: 40%;
-  }
-
-  .flip-block {
-    width: 90%;
-  }
-
   .projects-container {
     height: auto;
   }
@@ -194,30 +226,22 @@ a:visited {
     grid-template-columns: none;
   }
 
-  .project .left-column {
+  .project__left-column {
     border-right: none;
     border-bottom: 2px solid black;
     height: auto;
   }
 
-  .project .right-column {
+  .project__right-column {
     margin: 20px 0px;
   }
 
-  .tags {
+  .left-column__tags {
     flex-wrap: wrap;
   }
 }
 
 @media (min-width: 501px) and (max-width: 1024px) {
-  .header-img {
-    width: 40%;
-  }
-
-  .flip-block {
-    width: 40%;
-  }
-
   .projects-container {
     height: auto;
   }
@@ -226,23 +250,19 @@ a:visited {
     grid-template-columns: none;
   }
 
-  .project .left-column {
+  .project__left-column {
     border-right: none;
     border-bottom: 2px solid black;
     height: auto;
   }
 
-  .project .right-column {
+  .project__right-column {
     margin: 20px 0px;
   }
 }
 
 @media (min-width: 2000px) {
-  .flip-img {
-    width: 20%;
-  }
-
-  .project .right-column img {
+  .project__right-column img {
     max-height: 550px;
     width: auto;
   }

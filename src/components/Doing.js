@@ -5,11 +5,11 @@ export default function Doing() {
   return (
     <div className="flip-block">
       <h3>I'm out there...</h3>
-      <div className="content">
-        <div className="front">
+      <div className="flip-block__content">
+        <div className="flip-block__content--front">
           <img src={mouse} alt="mouse" className="flip-img" />
         </div>
-        <div className="back">
+        <div className="flip-block__content--back">
           <ul>
             <li>
               <p>
@@ -24,15 +24,6 @@ export default function Doing() {
               <p>
                 At Peacock's on Tuesdays as a regular{" "}
                 <a href="https://openhack.club/">Open Hack</a> pal.
-              </p>
-            </li>
-            <li>
-              <p>
-                Attending{" "}
-                <a href="https://members.viatec.ca/event-calendar/Details/2023-discover-tectoria-become-an-exhibitor-842944?sourceTypeId=Website">
-                  Discover Tectoria
-                </a>
-                .
               </p>
             </li>
             <li>
